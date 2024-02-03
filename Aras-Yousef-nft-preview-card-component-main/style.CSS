@@ -1,0 +1,131 @@
+body {
+    justify-content: center;
+    display: flex;
+   
+    align-items: center;
+    background-color: hsl(217, 54%, 11%);
+    color:white;
+}
+
+.themain{
+
+    justify-content: center;
+    display:block;
+   
+    align-items: center;
+    background-color:  hsl(216, 50%, 16%);
+    border: 15px;
+    width: 300px;
+   padding: 16px 16px;
+   border-radius: 15px ;
+
+}
+.thecoin{
+  justify-content: space-evenly;
+    /*justify-content:center;*/
+    display: flex;
+    flex-direction: column;
+    
+   position: relative;
+}
+.thecoin img
+ {
+    border-radius: 10px;
+    
+    }
+.icon{
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    top: 0px;
+    left: 0px; 
+    right: 0px;
+    bottom:0px;
+    border-radius: 10px;
+    opacity:0;
+    
+    
+
+}
+.icon:hover{
+        background-color:hsl(182, 100%, 49%);
+        opacity:1;
+    transition: opacity 0.5s ease;
+      }
+      .details{
+        padding-top:  25px;
+        padding-left:  5px;
+        font-size: large;
+        
+color:rgb(143, 142, 142);
+      }
+      .Equilibrium{
+        color: white;
+        font-size: 24px;
+        font-weight: bolder;
+      }
+      .Equilibrium:hover{
+        color:hsl(182, 100%, 49%);
+        opacity:1;
+    transition: opacity 0.5s ease;
+      }
+
+      .theprice{
+        white-space: wrap;
+
+justify-content: space-between;
+        display: flex;
+        padding-top:10px ;
+      }
+      .price{ display: inline-flex;
+        padding-left: 5px;
+        color:hsl(182, 100%, 49%);
+            }
+
+         .date{display: inline-flex;
+            
+            padding-left: 5px;}   
+    
+            hr {border: none;
+                width: 100%;
+                background-color:rgb(143, 142, 142);
+                height: 0.5px;}
+            
+                .theowner {
+                    display: flex;
+                    width: 300px;
+                    justify-content: space-evenly;
+                    align-items: center;
+                  }
+                  
+                .ownerimg {
+                    display: flex;
+                    width: 30px;
+                    height:30px;
+                    border: solid 1px white;
+                    border-radius: 50%;
+                  }
+                  
+                  .ownername {
+                    color: rgb(143, 142, 142);
+                    margin-right: 60px;
+                    border: none;
+                  }
+                  
+                  .owner {
+                    color: white;
+                  }
+
+                  .owner:hover {
+                    color: hsl(182, 100%, 49%);
+                  }
+
+
+@media  (max-width:300px ) {
+    .attribution {
+        width: 300px;
+      
+    }
+}
